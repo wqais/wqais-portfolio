@@ -55,7 +55,7 @@ a {
   background-color: #edf6f9;
   border: 4px solid #83c5be;
   padding: 3% 2%;
-  margin: 60px 20%;
+  margin: 60px 20% 60px 20%;
   font-size: 2em;
   font-weight: 500;
   text-align: left;
@@ -81,7 +81,7 @@ a {
   color: #006d77;
   border: 4px solid #83c5be;
   padding: 3% 2%;
-  margin: 60px 20%;
+  margin: 20px 20%;
   font-size: 2em;
   text-align: left;
   border-radius: 1em;
@@ -97,7 +97,7 @@ a {
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
   border: solid;
-  margin: 10px 10% 10px 10%;
+  margin: 10px 1% 1% 1%;
   padding: 8px 0;
   font-size: x-large;
   transition: 0.45s;
@@ -159,7 +159,7 @@ footer {
 }
 .footerheader {
   font-size: 2em;
-  margin: none;
+  margin: 0 0 1px 0;
   color: #006d77;
   background-color: #ffddd2;
   display: inline;
@@ -180,7 +180,8 @@ footer {
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
   border: solid;
-  margin: 10px 10% 10px -50px;
+  /* margin: 10px 2% 10px 2%; */
+  margin: 10px 1% 1% 1%;
   padding: 8px 0;
   font-size: x-large;
   transition: 0.45s;
@@ -197,12 +198,11 @@ footer {
   padding: 10px 10px;
   margin: 10px;
 }
-.newpage{
-  margin: 80px 10% 100px 10%;
-  height: 10em;
+/* .newpage{
+  margin: 0px 10% 2.5em 10%;
   color: #006d77;
   border: 4px solid #83c5be;
-  padding: 3% 2% 5% 2%;
+  padding: 3% 2% 1% 2%;
   font-size: 2em;
   text-align: left;
   border-radius: 1em;
@@ -213,5 +213,24 @@ footer {
   transform: scale(1.05);
 }
 .newpage:nth-last-of-type(2n){
+  background-color: #edf6f9;
+} */
+/* Blogs */
+.blogspage{
+  margin: 0px 10% 3em 10%;
+  /* height: 10em; */
+  color: #006d77;
+  border: 4px solid #83c5be;
+  padding: 3% 2% 1% 2%;
+  font-size: 2em;
+  text-align: left;
+  border-radius: 1em;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.blogs:hover {
+  transform: scale(1.05);
+}
+.blogspage:nth-last-of-type(2n){
   background-color: #edf6f9;
 }
