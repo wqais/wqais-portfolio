@@ -1,2 +1,2 @@
 Hi, My name is Qais Warekar.
-This is my Portfolio Website, created using HTML and CSS.
+I'll be publishing my portfolio on this site in a few days.
