@@ -30,15 +30,15 @@ a {
   color: #006d77;
   transition: 0.2s;
 }
-.navlinks:hover{
-    text-decoration: underline;
+.navlinks:hover {
+  text-decoration: underline;
 }
-.navlist{
+.navlist {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.navinline{
+.navinline {
   display: inline;
 }
 .bighr {
@@ -62,14 +62,14 @@ a {
   border-radius: 1em;
   transition: 0.5s;
 }
-.webdimage{
-    float: right;
-    height: 200px;
-    width: 200px;
-    border-radius: 120px; 
-    /* display: inline; */
+.webdimage {
+  float: right;
+  height: 200px;
+  width: 200px;
+  border-radius: 120px;
+  /* display: inline; */
 }
-.about{
+.about {
   display: inline;
   width: 50%;
 }
@@ -99,8 +99,9 @@ a {
   border: solid;
   margin: 10px 10% 10px 10%;
   padding: 8px 0;
-  font-size: large;
+  font-size: x-large;
   transition: 0.45s;
+  font-weight: 600;
 }
 .viewbutton:hover {
   background-color: #006d77;
@@ -117,8 +118,8 @@ a {
 .view:hover {
   color: #ffddd2;
 }
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
 .blogs {
   color: #006d77;
@@ -162,4 +163,55 @@ footer {
   color: #006d77;
   background-color: #ffddd2;
   display: inline;
+}
+
+/* Projects.html */
+.projectslist {
+  list-style-type: none;
+}
+.boxhr {
+  margin-bottom: 1em;
+  height: 1px;
+  background-color: #1d3557;
+}
+.sourcebutton {
+  background-color: #edf6f9;
+  color: #006d77;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: solid;
+  margin: 10px 10% 10px -50px;
+  padding: 8px 0;
+  font-size: x-large;
+  transition: 0.45s;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.sourcebutton:hover{
+  background-color: #ddeaee;
+  transform: scale(1.05);
+}
+.sourceview {
+  color: #006d77;
+  transition: 0.5s;
+  padding: 10px 10px;
+  margin: 10px;
+}
+.newpage{
+  margin: 80px 10% 100px 10%;
+  height: 10em;
+  color: #006d77;
+  border: 4px solid #83c5be;
+  padding: 3% 2% 5% 2%;
+  font-size: 2em;
+  text-align: left;
+  border-radius: 1em;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.newpage:hover {
+  transform: scale(1.05);
+}
+.newpage:nth-last-of-type(2n){
+  background-color: #edf6f9;
 }
