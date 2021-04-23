@@ -1,2 +1,1 @@
-Hi, My name is Qais Warekar.
-This is my Portfolio Website, created using HTML and CSS.
+Hi, this is my 'Portfolio Website' created using only HTML and CSS.
