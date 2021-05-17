@@ -159,7 +159,7 @@ footer {
   background-color: #ffddd2;
   display: inline;
 }
-.home-div:nth-last-of-type(2n) {
+.home-div:nth-of-type(2n) {
   background-color: #edf6f9;
 }
 
