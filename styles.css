@@ -245,7 +245,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@media (min-width: 600px) {
+
+@media (min-width: 501px) {
   .page-heading {
     font-size: 4.2rem;
     font-weight: 700;
@@ -255,11 +256,12 @@ table {
   }
   .webdimage {
     display: inline;
-    height: 16rem;
-    width: 50%;
-    border: 3px solid #006d77;
+    height: 200px;
+    width: 200px;
+    border:3px solid #006d77;
     border-radius: 5em;
-    margin-left: 4em;
+    margin-left: 30%;
+    object-fit: cover;
   }
   .navlinks {
     font-size: x-large;
@@ -296,7 +298,7 @@ table {
     padding: 0 1em 0 1.27em;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 975px) {
   .page-heading {
     font-size: 2rem;
   }
@@ -309,6 +311,8 @@ table {
     border-radius: 4.5em;
     float: right;
     border: 3px solid #006d77;
+    object-fit: cover;
+    margin-left: auto;
   }
   .navlinks {
     font-size: 1em;
