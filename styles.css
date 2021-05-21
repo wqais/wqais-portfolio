@@ -254,11 +254,12 @@ table {
     padding: 0 2em;
   }
   .webdimage {
-    float: right;
-    height: 210px;
-    width: 205px;
-    border-radius: 150px;
-    margin-right: 2em;
+    display: inline;
+    height: 16rem;
+    width: 50%;
+    border: 3px solid #006d77;
+    border-radius: 5em;
+    margin-left: 4em;
   }
   .navlinks {
     font-size: x-large;
@@ -303,10 +304,11 @@ table {
     display: inline;
   }
   .webdimage {
-    height: 140px;
-    width: 140px;
-    border-radius: 4.75em;
+    height: 130px;
+    width: 130px;
+    border-radius: 4.5em;
     float: right;
+    border: 3px solid #006d77;
   }
   .navlinks {
     font-size: 1em;
