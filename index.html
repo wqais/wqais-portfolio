@@ -10,20 +10,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link href="app.js">
     <title>Home | wqaisPortfolio</title>
   </head>
 
   <body>
     <header>
-      <h1>QAIS WAREKAR</h1>
+      <span class="page-heading">QAIS WAREKAR</span>
       <strong
-        ><nav class="nav">
+        ><nav class="nav" id="navbar">
           <ul class="navlist">
             <li class="navinline">
               <a href="index.html" class="navlinks">Home</a>
-            </li>
-            <li class="navinline">
-              <a href="#aboutme" class="navlinks">About</a>
             </li>
             <li class="navinline">
               <a href="projects.html" class="navlinks">Projects</a>
@@ -36,12 +34,12 @@
       >
     </header>
 
-    <hr class="bighr" />
+    <hr class="bighr" id="hr"/>
 
     <div class="home-div" id="aboutme">
       <section class="about">
         <img
-          src="https://instagram.fbom19-1.fna.fbcdn.net/v/t51.2885-19/s320x320/175981642_200785298295822_5711079146907794624_n.jpg?tp=1&_nc_ht=instagram.fbom19-1.fna.fbcdn.net&_nc_ohc=_rXvBNyKdN4AX_Fw2J_&edm=ABfd0MgAAAAA&ccb=7-4&oh=2150b3c2ae675bcd086db910ee049567&oe=60A6A080&_nc_sid=7bff83"
+          src="https://lh3.googleusercontent.com/wBXXht10ZTjYYxhPDhbtAJEdrJ6J1LbG04rM_ZlqyoJxW3AdNwWCuBK8mZAb43ZjQ_iFP5YKmchoEQG_ypYOZBis_kSuhSs3Zs6_jACwLRWvx9NCa41npj9I2kPDe_POt2yrcEK-Taj8NVDq3euxtFX3LXC7H6uvMYqhcNUGmUbQLCo1vnvLUDY5a0Fe1uB81FXwhS1pe7saGDIDk6Sa3Yy_i_BSIm6lSvURfhkOcDg7u9ZKqyMgPd-Hu5kjjTXoUweaQYl8Qgm1aVDlWAm4LSsAg2-VTzPRt6Bg9bGHhVZZkZzd4SfZtjCsTlli1hU3JPiEk64pinLJhzTlWcFE2ozrthrVI3Rr2-YPM7wdbiM3v2u0yBVxXdFLWX-BkFL1v9WpWdsrGkLoUdZbLBbWyU9N88nYf88jXEi0RBgzmrXoXzQSCg1aKxUn4Mau04N2rRPQPNDsg5bVGgI_FKaioZeX6LHjvhBICG4vzn9zFmgCpjHuH99bRD0ge1qz1kvcMzx2ofrbWjJoMVI_v9X4Di6gTWNQ1mLlP1dD4sjnP8ewLPTP_N4yTGEanMklJUO6OcyzTS2fq0VGeMjiWsK0sucAZLKCnSwRxeTFhD5GZGglQc0h34hBbWC-FhcuFv8sWq8WwUL64owocFxUokjNK9dr05raiIUBm-PYN5UOEbglC86SYS5cC9fxQ-SgMEdx6PUxfDF6tELqR0pnxX0fB5eDvw=w803-h938-no?authuser=0"
           class="webdimage"
         />
         <section class="aboutpara">
@@ -49,27 +47,31 @@
           An Aspiring Web Developer.<br />
           I'm currently pursuing BCA.<br />
           Technologies I'm familiar with: <br />
-          HTML, CSS, C, JavaScript.<br />
+          HTML, CSS, C, JavaScript, React.<br />
           My interests are Anime and Coding.
         </section>
       </section>
     </div>
+    <br />
 
     <div class="home-div" id="projects">
       I'm currently undergoing a Full Stack Web Development Course on Udemy and
       Youtube.<br />
       You can see the projects I've finished so far.<br />
-      <button class="viewbutton">
+      <button class="view-btn">
         <a href="projects.html" class="view">View Projects</a>
       </button>
     </div>
+    <br />
 
     <div class="home-div" id="blogs">
       I write blogs occasionally. You can view them here.<br />
-      <button class="viewbutton" type="button">
+      <button class="view-btn" type="button">
         <a href="blogs.html" class="view">View Blogs</a>
       </button>
     </div>
+    <br />
+    <br />
 
     <hr class="bighr2" />
 
@@ -77,28 +79,30 @@
       <br />
       <h2 class="footerheader">Connect With Me</h2>
       <br />
+      <br />
       <a href="https://twitter.com/QWarekar" class="social"
         ><img
-          src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-256.png"
+          src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-512.png"
           class="footericons"
       /></a>
       <a href="https://github.com/wqais" class="social"
         ><img
-          src="https://img.icons8.com/fluent/2x/github.png"
+          src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png"
           class="footericons"
       /></a>
       <a
         href="https://www.linkedin.com/in/qais-warekar-5422321b8"
         class="social"
         ><img
-          src="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Linkedin-256.png"
+          src="https://cdn1.iconfinder.com/data/icons/capsocial/500/linkedin-512.png"
           class="footericons"
       /></a>
       <a href="https://instagram.com/qaiswarekar" class="social"
         ><img
-          src="https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png"
+          src="https://cdn4.iconfinder.com/data/icons/logos-3/512/Glyph-512.png"
           class="footericons"
       /></a>
     </footer>
+    <script src="app.js"></script> 
   </body>
 </html>
