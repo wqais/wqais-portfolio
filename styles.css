@@ -445,7 +445,6 @@ a {
 .view {
   color: #006d77;
   transition: 0.5s;
-  /* padding: 10px 5px; */
   margin: 10px;
 }
 .view:hover {
