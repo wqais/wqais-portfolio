@@ -56,9 +56,17 @@ body {
   margin-top: 1rem;
 }
 
-.projects-btn:hover, .blogs-btn:hover, .reset-btn:hover {
+.btn-outline-primary:hover, .reset-btn:hover {
   background-color: #adb5bd35;
   color: #0d6efd;
+}
+
+.btn-outline-primary a{
+  text-decoration: none;
+}
+
+.secondary-link{
+  color: white;
 }
 
 .row:hover{
