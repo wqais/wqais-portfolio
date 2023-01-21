@@ -1,0 +1,59 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.projects-container {
+  margin-top: 10rem;
+}
+
+.btn-primary {
+  margin-right: 1rem;
+}
+
+.btn-primary a {
+  color: white;
+}
+
+.btn-outline-primary:hover {
+  background-color: #adb5bd35;
+}
+
+.row {
+  margin: 10rem auto;
+  transition: 0.25s all;
+}
+
+.row:hover {
+  background-color: #0d6dfd1f;
+  transform: scale(1.05);
+}
+
+.row:nth-child(odd) {
+  border-left: 0.5rem solid #0d6efd;
+  padding-left: 1rem;
+}
+
+.row:nth-child(even) {
+  border-right: 0.5rem solid #0d6efd;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.copyright-info {
+  margin-top: 1.5rem;
+}
+
+.logo{
+  width: 17rem;
+  height: 5rem;
+  object-fit: cover;
+}
