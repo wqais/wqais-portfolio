@@ -39,11 +39,11 @@ Adding a few animations and making my website more lively is something I would l
 
 ### Useful resources
 
-- Web Dev Simplified - [YouTube](https://wqaisportfolio.netlify.app) helped me in understanding a few CSS properties!
+- Web Dev Simplified - [YouTube](https://www.youtube.com/@WebDevSimplified) helped me in understanding a few CSS properties!
 - CSS Tricks - [Website](https://css-tricks.com/) helped me in learning grid in CSS.
 
 ## Author
 
-- Website - [Qais Warekar](https://wqaisportfolio.netlify.app)
+- Website - [Qais Warekar](https://wqais-portfolio.vercel.app/)
 - Twitter - [@QWarekar](https://mobile.twitter.com/QWarekar)
 
