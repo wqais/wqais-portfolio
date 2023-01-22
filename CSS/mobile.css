@@ -1,41 +1,44 @@
-@media(max-width: 576px){
-
-    .footer-icons{
+@media (max-width: 576px) {
+  .nav-item {
+    width: min-content;
+  }
+  
+  .footer-icons {
     height: 2rem;
     width: 2rem;
     margin: -2rem 0.5rem;
   }
 
-  .row{
+  .row {
     margin: 5rem auto;
   }
 
-  nav{
+  nav {
     font-size: small;
   }
 
-  .lead{
+  .lead {
     font-size: 1rem;
   }
 
-  .display-5{
+  .display-5 {
     font-size: 1.5rem;
   }
 
-  .container{
+  .container {
     margin-top: 0;
   }
 
-  .btn-primary{
+  .btn-primary {
     margin-right: 0;
   }
 
-  .row{
+  .row {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .logo{
+  .logo {
     width: 12rem;
     height: 5rem;
     object-fit: cover;
@@ -43,6 +46,6 @@
   }
 }
 
-.nav-link:hover{
-    color: white;
-  }
+.nav-link:hover {
+  color: white;
+}

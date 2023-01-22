@@ -13,7 +13,7 @@ body {
 }
 
 @media (min-width: 576px) {
-  .navbar{
+  .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
@@ -36,7 +36,7 @@ body {
     transition: 0.25s all;
   }
 
-  .logo{
+  .logo {
     width: 17rem;
     height: 5rem;
     object-fit: cover;
@@ -56,38 +56,43 @@ body {
   margin-top: 1rem;
 }
 
-.btn-outline-primary:hover, .reset-btn:hover {
+.btn-outline-primary:hover,
+.reset-btn:hover {
   background-color: #adb5bd35;
   color: #0d6efd;
 }
 
-.btn-outline-primary a{
+.btn-outline-primary a {
   text-decoration: none;
 }
 
-.secondary-link{
+.secondary-link {
   color: white;
 }
 
-.row:hover{
+.row:hover {
   background-color: #0d6dfd1f;
   transform: scale(1.05);
 }
 
-.row:nth-child(odd){
+.row:nth-child(odd) {
   border-left: 0.5rem solid #0d6efd;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.row:nth-child(even){
+.row:nth-child(even) {
   border-right: 0.5rem solid #0d6efd;
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
-@media(max-width: 576px){
-  .portrait-img{
+@media (max-width: 576px) {
+  .nav-item {
+    width: min-content;
+  }
+
+  .portrait-img {
     height: 8rem;
     width: 8rem;
     object-fit: contain;
@@ -95,58 +100,58 @@ body {
     margin-right: -1rem;
   }
 
-  .footer-icons{
+  .footer-icons {
     height: 2rem;
     width: 2rem;
     margin: auto 0.5rem;
   }
 
-  .row{
+  .row {
     margin: 5rem auto;
   }
 
-  nav{
+  nav {
     font-size: small;
   }
 
-  .lead{
+  .lead {
     font-size: 1rem;
   }
 
-  .display-5{
+  .display-5 {
     font-size: 1.5rem;
   }
 
-  form{
+  form {
     margin: auto 1rem;
   }
 
-  .connect{
+  .connect {
     margin: auto 1rem;
   }
 
-  .type{
+  .type {
     width: 70%;
   }
 
-.row:nth-child(odd){
-  padding-left: 0;
-  padding-right: 0;
+  .row:nth-child(odd) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .row:nth-child(even) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo {
+    width: 12rem;
+    height: 5rem;
+    object-fit: cover;
+    margin-left: -1rem;
+  }
 }
 
-.row:nth-child(even){
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.logo{
-  width: 12rem;
-  height: 5rem;
-  object-fit: cover;
-  margin-left: -1rem;
-}
-}
-
-.nav-link:hover{
+.nav-link:hover {
   color: white;
 }
