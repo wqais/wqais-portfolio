@@ -1,9 +1,3 @@
-// let linkedin_img = document.querySelector('#linkedin-img');
-
-// linkedin_img.addEventListener("mouseover", linkedin_hover)
-// function linkedin_hover(){
-//     linkedin_img.src = "/Assets/linkedin-blue.svg";
-// }
 
 function linkedin_hover(x, image){
     if(x ==1){
