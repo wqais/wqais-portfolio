@@ -26,11 +26,11 @@ function github_hover(x, image){
     }
 }
 
-function twitter_hover(x, image){
+function x_hover(x, image){
     if(x ==1){
-        image.src = "/Assets/twitter-blue.svg"
+        image.src = "/Assets/x-blue.svg"
     }
     else if(x == 2){
-        image.src = "/Assets/twitter-black.svg"
+        image.src = "/Assets/x-black.svg"
     }
 }
